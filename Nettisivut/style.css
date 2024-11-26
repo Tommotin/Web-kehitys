@@ -1,0 +1,61 @@
+/* Yleiset tyylimääritykset kaikille sivuille */
+body {
+    font-family: Arial, helvetica; /* fontti */
+    margin: 0;
+    padding: 0;
+    line-height: 1.5; /* Riviväli */
+    background-color: #f4f4f4; /* Vaalea taustaväri */}
+  
+  /* Ylätunnisteen tyyli */
+  header {
+    position: relative;
+  background-color: #475a0294;
+  padding: 20px 0;
+  text-align: center;
+  color: white;}
+
+    header h1 {
+        margin: 0; /* Poistaa ylimääräiset marginaalit otsikon ympäriltä */
+        font-size: 28px; /* Otsikon fonttikoko */
+        line-height: 100px; /* Varmistaa, että otsikko on keskellä pystysuunnassa */}
+   
+        header img {
+            position: absolute;
+            max-width: 185px;
+            height: auto;}
+
+          header .left-image {
+            top: 10px;
+            left: 10px;}
+
+            header .right-image {
+                top: 10px; /* Etäisyys headerin yläreunasta */
+                right: 10px; /* Etäisyys headerin oikeasta reunasta */}
+
+  /* Navigointilinkkien tyyli */
+  nav ul {
+    list-style: none; /* Ei listamerkkejä */
+    padding: 0;}
+  
+  nav ul li {
+    display: inline; /* Linkit vierekkäin */
+    margin: 0 10px;}
+  
+  nav ul li a {
+    color: white; /* Linkkiteksti valkoinen */
+    text-decoration: none; /* Poistetaan alleviivaus */}
+
+  /* Pääsisältö */
+  main {
+    padding: 20px;
+    text-align: center;}
+
+  /* Alatunnisteen tyyli */
+  footer {
+    background: #333; /* Tummanharmaa taustaväri */
+    color: white; /* Valkoinen teksti */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; /* Kiinnitetty sivun alalaitaan */
+    bottom: 0;
+    width: 100%;}
